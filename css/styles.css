@@ -501,6 +501,46 @@ address {
 .connect-item {
     fill: currentColor;
 }
+.field-footer {
+display: flex;
+margin-left: 93px;
+}
+.field-caption {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+
+color: var(--third-text-color);
+}
+.field-button {
+width: 200px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 12px;
+padding: 0;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+text-align: center;
+
+color: var(--third-text-color);
+background-color: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border-color: transparent;
+}
 
 /* Finish Studio page */
 
